@@ -1,0 +1,133 @@
+.box1{
+    height: 20px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    background-image: linear-gradient( to right, red, green, yellow );
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+    background-color: rgb(95, 159, 182);
+    height: 55px;
+    width: 500px;
+    border-radius: 10px;
+    border:3px red solid;
+     
+}
+.box3{
+    background-color: aquamarine;
+    border: 2px red solid ;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    height: 100px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    row-gap:-1px;
+    padding: 10px;
+    
+    
+}
+.item{
+    background-color: aqua;
+    border: 2px green solid;
+    border-radius: 8px;
+    height: 35px;
+    width: auto;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.view{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.box4{
+    height: 25px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline red;
+    background-image: linear-gradient(to right, red, yellow, red);
+}
+.box5{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    height: 150px;
+    width: auto;
+    margin: 10px;
+    background-image: radial-gradient(rgb(47, 47, 255),rgb(83, 249, 83));
+    border: 2px green solid;
+    
+}
+.item1{
+    color: red;
+    text-decoration: underline red;
+    text-align: center;
+    background-color: bisque;
+    height: 70px;
+    width: 150px;
+    border: 3px red solid ;
+    border-radius: 10px;
+}
+.box6{
+    color: white;
+    height: 20px;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+}
+.box7{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1px;
+    column-gap: 10px;
+    row-gap: 10px;
+    color: white;
+    
+}
+.green{
+    background-color: rgb(107, 200, 107);
+    height:50px;
+    width: 300px;
+    
+}
+.blue{
+    background-color: rgb(71, 71, 246);
+    height:50px;
+    width: 300px;
+}
+.navy{
+    background-color: rgb(87, 15, 204);
+    height:50px;
+    width: 300px;
+    
+}
+.black{
+    background-color: black;
+    height:160px;
+    width: 100px;
+    grid-row: 1/4;
+    grid-column: 4/5;
+    text-decoration: underline;
+}
+.orange{
+    background-color: orange;
+    height:100px;
+    width: auto;
+    grid-row: 2/4;
+    grid-column: 1/4;
+}
+.box8{
+    text-align: center;
+    background-color: rgb(54, 127, 126);
+}
